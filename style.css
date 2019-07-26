@@ -1,32 +1,38 @@
-.body{
+.app{
     background-color:#ffcc00;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.feliz{
-    font-size: 100px;
-    text-align: center;
-}
-.triste{
-    display: none;
-    font-size: 100px;
-    text-align: center;
-}
-.btn-container{
+.app--alt{
+    background-color:#ff9900;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.form{
+
+.app__face{
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.app__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app__mood{
     margin-right: 30px;
     width: 70px;
 }
-.btn{
+.app__update{
  width: 70px;
- background-color:blue;
+ background-image: linear-gradient(to bottom,#04a2fc,#026bbd);
  border-radius:5px;
- border: 1px solid blue;
+ border: 1px solid transparent;
  color: white;
 }
